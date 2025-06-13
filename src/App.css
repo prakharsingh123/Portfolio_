@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root {
+
+  --header-height: 3rem;
+  --body-font: "Poppins", sans-serif;
+  --container-color: #fff;
+  --hue: 210; /* Example hue value */
+    --sat: 50%; /* Example saturation value */
+    --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark:rgb(0,0,111);
+
+  --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
+  --background-color-2: #212428;
+  --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+  --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  --inner-shadow-white: 1px 4px 2px -3px #D1D9E6 inset, -1px -3px 3px -2px #ffffff inset;
+
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  --mb-1-5:1.5rem;
+  --mb-1:1rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body,
+input,
+textarea {
+    font-family: 'Poppins', sans-serif;
+  font-size: var(--font-normal);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 8rem 0rem 6rem;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+
+@media  screen and (max-width:992px) {
+  .container{
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1);
+  }
+  
+}

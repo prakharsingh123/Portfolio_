@@ -1,0 +1,242 @@
+.about__section {
+    margin-top: 5rem;
+    margin-bottom: auto;
+    min-height: 100vh;
+    background-color: rgb(38, 38, 38);
+    color: #fff;
+}
+
+.section__title{
+    padding-bottom: 0.5rem;
+}
+
+.about__container{
+    padding-top: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+    margin-top: rem;
+   
+}
+.about__img{
+    max-width: 320px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about__info{
+    grid-template-columns: repeat(3,140px);
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.about__box{
+    background-color: var(--container-color);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+
+.about__icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.about__data{
+    padding: 2rem;
+}
+
+.about__title{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.about__subtitle{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.about__icons {
+    margin-top: 1rem;
+    flex-direction: row;
+    font-family: Arial, sans-serif; /* Optional: Customize the font */
+    color: #fff ;
+    display: flex;
+    justify-content: center;
+}
+  
+  .about__icons div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* Adds space between the icon and the text */
+    padding: 2rem; /* Adds padding around each item */
+  }
+  
+  .about__icons i {
+    font-size: 24px; /* Size of the icon */
+    color: #fff; /* Color of the icon */
+  }
+
+
+.about__description{
+    padding: 1rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+@media screen and (max-width: 992px) {
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+
+    .about__info {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about__description {
+        padding: 0 4rem 0 4rem;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__icons {
+        font-size: 17px;
+        gap: 12px;
+      }
+      
+      .about__icons div {
+        padding: 12px;
+      }
+      
+      .about__icons i {
+        font-size: 22px;
+      }
+}
+
+/* For screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    .section__title {
+        padding-top: 3rem;
+        padding-bottom: 0.4rem;
+    }
+
+    .about__container {
+        column-gap: 3rem;
+    }
+
+    .about__img {
+        max-width: 280px;
+    }
+
+    .about__description {
+        padding: 0 3rem 0 3rem;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__icons {
+        font-size: 16px;
+        gap: 10px;
+      }
+      
+      .about__icons div {
+        padding: 10px;
+      }
+      
+      .about__icons i {
+        font-size: 20px;
+      }
+}
+
+/* For screens with a maximum width of 556px */
+@media screen and (max-width: 556px) {
+    .section__title {
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .about__container {
+        column-gap: 2rem;
+    }
+
+    .about__img {
+        max-width: 240px;
+    }
+
+    .about__info {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .about__description {
+        padding: 0 2rem 0 2rem;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__icons {
+        font-size: 15px;
+        gap: 8px;
+      }
+      
+      .about__icons div {
+        padding: 8px;
+      }
+      
+      .about__icons i {
+        font-size: 18px;
+      }
+}
+
+/* For screens with a maximum width of 360px */
+@media screen and (max-width: 360px) {
+    .section__title {
+        padding-top: 1.5rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .about__img {
+        max-width: 200px;
+    }
+
+    .about__info {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .about__description {
+        padding: 0 1.5rem 0 1.5rem;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__icons {
+        font-size: 14px;
+        gap: 6px;
+      }
+      
+      .about__icons div {
+        padding: 6px;
+      }
+      
+      .about__icons i {
+        font-size: 16px;
+      }
+    
+}
+
+  
+
+  
+
+ 

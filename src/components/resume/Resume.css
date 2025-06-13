@@ -1,0 +1,166 @@
+:root {
+  --primary-blue: rgb(11, 108, 220);
+  --text-dark: rgb(50, 47, 47);
+}
+
+#portfolio_title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--primary-blue);
+  margin-top: 0.8rem;
+}
+
+.resume__container {
+  margin-top: 2rem;
+}
+
+.edu__content {
+  display: flex;
+  flex-direction: row;
+  margin: 0 4rem;
+  border-bottom: 2px solid grey;
+  padding-bottom: 1rem;
+  justify-content: space-evenly;
+}
+
+.edu__title {
+  flex-basis: 50%;
+  padding: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #dc3545;
+}
+
+.edu__subtitle {
+  flex: 1;
+  padding: 2rem;
+  text-align: left;
+}
+
+.experience_2{
+   margin-top: 1.2rem;
+   
+}
+
+.edu__stream {
+  font-weight: 500;
+}
+
+.edu__para {
+  font-size: 1rem;
+}
+
+.time__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.edu__college {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--primary-blue);
+}
+
+.edu__time,
+.edu__location {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--text-dark);
+}
+
+/* Responsive Media Queries */
+
+/* ≤ 992px */
+@media (max-width: 992px) {
+  .edu__content {
+    flex-direction: column;
+    margin: 0 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .edu__title,
+  .edu__subtitle {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .edu__para,
+  .edu__college,
+  .edu__time,
+  .edu__location {
+    font-size: 1rem;
+  }
+
+  .time__content {
+    margin-right: 0;
+    justify-content: center;
+  }
+}
+
+/* ≤ 768px */
+@media (max-width: 768px) {
+  .edu__content {
+    margin: 0 1.5rem;
+    padding: 1rem;
+  }
+
+  .edu__title,
+  .edu__subtitle {
+    padding: 1rem 0.5rem;
+  }
+
+  .time__content {
+    font-size: 0.8rem;
+  }
+}
+
+/* ≤ 576px */
+@media (max-width: 576px) {
+  .edu__content {
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+
+  .edu__title,
+  .edu__subtitle {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .edu__para,
+  .edu__college,
+  .edu__time,
+  .edu__location {
+    font-size: 0.8rem;
+  }
+
+  .time__content {
+    padding-top: 0.5rem;
+  }
+}
+
+/* ≤ 360px */
+@media (max-width: 360px) {
+  .edu__content {
+    margin: 0 0.5rem;
+    padding: 1rem;
+  }
+
+  .edu__title,
+  .edu__subtitle {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+  .edu__para,
+  .edu__college,
+  .edu__time,
+  .edu__location {
+    font-size: 0.6rem;
+  }
+}

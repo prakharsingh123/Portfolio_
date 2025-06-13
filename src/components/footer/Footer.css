@@ -1,0 +1,75 @@
+/* Container for footer */
+.footer {
+    background-color: rgb(38, 38, 38); /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 2rem 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+    padding-bottom: 5rem;
+    
+}
+  
+  
+  /* Container inside footer */
+  .footer__container {
+    max-width: 1200px; /* Max width to keep content in line */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 0 1rem; /* Horizontal padding */
+  }
+  
+  /* Footer title styling */
+  .footer__title {
+    font-size: 2rem;
+    margin-bottom: 1rem; /* Space below title */
+  }
+  
+  /* List styling */
+  .footer__list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: center; /* Center align list items */
+    gap: 1.5rem; /* Space between list items */
+  }
+  
+  .footer__list li {
+    margin: 0; /* Remove margin for list items */
+  }
+  
+  /* Link styling */
+  .footer__link {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Font size */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .footer__link:hover {
+    color: #1e90ff; /* Change color on hover */
+  }
+  
+  /* Icon container styling */
+  .footer__link {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* Individual icon styling */
+  .footer-icon {
+    display: inline-block; /* Inline-block for proper sizing */
+    width: 2.5rem; /* Icon width */
+    height: 2.5rem; /* Icon height */
+    line-height: 2.5rem; /* Center icon vertically */
+    background-color: #444; /* Dark background for icons */
+    border-radius: 50%; /* Circular background */
+    color: #fff; /* White icon color */
+    font-size: 1.5rem; /* Icon size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .footer-icon:hover {
+    background-color: #1e90ff; /* Background color on hover */
+  }
+  
