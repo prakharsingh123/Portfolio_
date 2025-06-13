@@ -35,7 +35,7 @@ const skills = [
       { name: "Postman", icon: <SiPostman color="#ff6c37" /> },
       { name: "Docker", icon: <FaDocker color="#0db7ed" /> },
       { name: "Kubernetes", icon: <SiKubernetes color="#326ce5" /> },
-      { name: "Elastic (ELK)", icon: <SiMongodb color="#47A248" /> },
+      { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
 
     ],
   },
