@@ -5,6 +5,8 @@ import cryptoVerse from "../../assets/crypto-verse.png";
 import BankPro from "../../assets/BankPro.png";
 import BankUser from "../../assets/BankUser.png";
 import wearIt from "../../assets/WearIt.png";
+import Moviemaze from "../../assets/Moviemaze.png";
+import PigGame from "../../assets/PigGame.png";
 
 const data = [
   {
@@ -34,6 +36,20 @@ const data = [
     linkUrl: 'https://bankuser.netlify.app/',
     title: 'BankUser',
     description: 'A secure banking portal enabling real-time fund transfers between accounts. Includes login authentication and transaction history view. Demo: user - js, pass - 1111.'
+  },
+  {
+    id: 5,
+    imageUrl: Moviemaze,
+    linkUrl: 'https://movie-maze-1.netlify.app/',
+    title: 'MovieMaze',
+    description: 'A movie discovery app built with React, allowing users to search for movies, view details, and create a watchlist using the TMDB API.'
+  },
+   {
+    id: 6,
+    imageUrl: PigGame,
+    linkUrl: 'https://dice-game-e762ad.netlify.app/',
+    title: 'Pig Game',
+    description: 'A fun and interactive Pig Dice Game built with React, allowing users to roll dice and accumulate points while trying to avoid losing them.'
   }
 ];
 
