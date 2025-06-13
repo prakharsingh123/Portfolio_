@@ -6,9 +6,9 @@ import {
 import {
   SiRedux, SiTailwindcss, SiSpringboot,
   SiPostman, SiKubernetes,
+  SiMongodb,
+  SiJavascript, SiFigma
 } from "react-icons/si";
-import { JavaScript, FigmaDark , ElasticsearchDark } from "@fdorantesm/react-skill-icons";
-
 import "./Icon.css";
 
 const skills = [
@@ -22,20 +22,20 @@ const skills = [
       { name: "TailwindCSS", icon: <SiTailwindcss color="#38bdf8" /> },
       { name: "Bootstrap", icon: <FaBootstrap color="#7952b3" /> },
       { name: "GitHub", icon: <FaGithub color="white" /> },
-      { name: "Figma", icon: <FigmaDark /> },
+      { name: "Figma", icon: <SiFigma color="#3498db" /> },
     ],
   },
   {
     category: "Backend Tools",
     icons: [
       { name: "Node.js", icon: <FaNodeJs color="#68a063" /> },
-      { name: "JavaScript", icon: <JavaScript color="#f0db4f" /> },
+      { name: "JavaScript", icon: <SiJavascript color="#f0db4f" /> },
       { name: "Java", icon: <FaJava color="#f89820" /> },
       { name: "Spring Boot", icon: <SiSpringboot color="#6DB33F" /> },
       { name: "Postman", icon: <SiPostman color="#ff6c37" /> },
       { name: "Docker", icon: <FaDocker color="#0db7ed" /> },
       { name: "Kubernetes", icon: <SiKubernetes color="#326ce5" /> },
-      { name: "Elastic (ELK)", icon: <ElasticsearchDark /> },
+      { name: "Elastic (ELK)", icon: <SiMongodb color="#47A248" /> },
 
     ],
   },
