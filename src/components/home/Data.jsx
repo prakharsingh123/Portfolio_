@@ -59,8 +59,8 @@ const Data = () => {
 
         </h1>
 
-        <h3 className="home__subtitle">Frontend Developer</h3>
-        <p className="home__description">I am a dedicated frontend developer specializing in creating intuitive and responsive web designs, based in Lucknow, U.P.</p>
+        <h3 className="home__subtitle">FullStack Developer</h3>
+        <p className="home__description">I am a dedicated FullStack developer specializing in creating intuitive and responsive web designs, based in Lucknow, U.P.</p>
         <div className="container_img">
   <a download='' href={CV} className="button button--flex">
     Download CV
