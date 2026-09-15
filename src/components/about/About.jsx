@@ -14,14 +14,14 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            I'm Prakhar Singh, a Software Engineer at Tech Mahindra with a solid foundation in modern web technologies.
+            I'm Prakhar Singh, a Software Engineer at Accenture with a solid foundation in modern web technologies.
             I'm eager to contribute to innovative IT projects and create impactful digital experiences.
           </p>
 
           <div className="about__icons">
             <div>
               <i className="bx bx-calendar-heart"></i>
-              <span>Age: 24 years</span>
+              <span>Age: 25 years</span>
             </div>
             <div>
               <i className="bx bx-location-plus"></i>
